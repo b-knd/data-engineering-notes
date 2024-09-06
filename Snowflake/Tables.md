@@ -62,7 +62,7 @@
     STORAGE_INTEGRATION = my_storage_int
     DIRECTORY = (ENABLE = TRUE);     -->This is the keyword
   ```
-_[Back to top](#type-of-snowflake-tables)_
+_[Back to top](#types-of-snowflake-tables)_
 
 ## Event Table
 - **Description:** Table designed to capture logs and evnets natively within platform
@@ -124,7 +124,7 @@ _[Back to top](#type-of-snowflake-tables)_
   select * from demo_customer_tbl;
   ```
   _** There will be another column named metadata$filename which stores info about file in external table_
-_[Back to top](#type-of-snowflake-tables)_
+_[Back to top](#types-of-snowflake-tables)_
 
   ## Hybrid Table
   - **Description**: Table support all transactional capability needs. Support fast single row operations and work on new row-based storage engine
@@ -172,7 +172,7 @@ _[Back to top](#type-of-snowflake-tables)_
   EXTERNAL_VOLUME='myIcebergVolume'
   BASE_LOCATION='relative/path/from/extvol/location/';
   ```
-_[Back to top](#type-of-snowflake-tables)_
+_[Back to top](#types-of-snowflake-tables)_
 
 ## Permanent Table
 - **Description**: Default table in Snowflake, data is persisted indefintely unless explicitly deleted
@@ -207,4 +207,4 @@ _[Back to top](#type-of-snowflake-tables)_
   ```sql
   create transient table student (id number, name varchar(100));
   ```
-_[Back to top](#type-of-snowflake-tables)_
+_[Back to top](#types-of-snowflake-tables)_
