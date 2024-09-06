@@ -54,7 +54,8 @@ from table1 a, table1 b
 where condition;
 ```
 
-![[Pasted image 20240624103943.png]]
+![[]](https://github.com/b-knd/data-engineering-notes/blob/main/SQL/media/sql_joins.png)
+![[]](https://github.com/b-knd/data-engineering-notes/blob/main/SQL/media/sql_joins_2.jpg)
 
 Simple example of JOIN
 Given table 1 - Orders
