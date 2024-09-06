@@ -54,8 +54,12 @@ from table1 a, table1 b
 where condition;
 ```
 
-![[]](https://github.com/b-knd/data-engineering-notes/blob/main/SQL/media/sql_joins.png)
-![[]](https://github.com/b-knd/data-engineering-notes/blob/main/SQL/media/sql_joins_2.jpg)
+<p align=center>
+  <img width=800 src="https://github.com/b-knd/data-engineering-notes/blob/main/SQL/media/sql_joins.png">
+</p>
+<p align=center>
+  <img width=800 src="https://github.com/b-knd/data-engineering-notes/blob/main/SQL/media/sql_joins_2.jpg">
+</p>
 
 Simple example of JOIN
 Given table 1 - Orders
