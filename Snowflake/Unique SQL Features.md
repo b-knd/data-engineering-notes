@@ -21,7 +21,6 @@ _(Means copy is created without physically duplicating underlying data but creat
 ```sql
 CREATE TABLE my_table_clone CLONE my_table;
 ```
-_[Back to top](#snowflake-unique-features)_
 
 ## Streams and Tasks
 Snowflake provides streams to track changes (inserts, updates, deletes) to table
@@ -44,7 +43,6 @@ Snowflake allows working with semi-structured data like JSON, XML and Avro using
 --Example
 SELECT data:VARIANT FROM my_table;
 ```
-_[Back to top](#snowflake-unique-features)_
 
 ## Snowflake Scripting (Stored Procedures)
 Snowflake scripting allows to write procedural logic (loops, conditionals) directly
@@ -65,7 +63,6 @@ Secure data sharing enables sharing live data across accounts without copying da
 CREATE SHARE my_share;
 GRANT SELECT ON my_table to SHARE my_share;
 ```
-_[Back to top](#snowflake-unique-features)_
 
 ## Query Tagging
 Supports tagging SQL queries to track usage or categorize them for audit purposes
