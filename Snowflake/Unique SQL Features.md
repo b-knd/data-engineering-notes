@@ -4,7 +4,7 @@ Snowflake offers several unique SQL features that are distinct from other tradit
 - [Cloning](#cloning)
 - [Streams and Tasks](#streams-and-tasks)
 - [Semi-structured Data types](#semi-structured-data-types)
-- [Snowflake Scripting](#snowflake-scripting-(stored-procedures))
+- [Snowflake Scripting](#snowflake-scripting-stored-procedures)
 - [Snowflake Data Sharing](#snowflake-data-sharing)
 - [Query Tagging](#query-tagging)
 
