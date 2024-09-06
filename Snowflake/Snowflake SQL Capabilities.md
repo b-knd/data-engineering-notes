@@ -2,11 +2,11 @@
 - ["SELECT" * "EXCLUDE"](#select-with-exclude)
 - ["SELECT" * "RENAME"](#select-with-rename)
 - [REPLACE](#replace)
-- [MIN_BY & MAX_BY](#min_by-&-max_by)
+- [MIN_BY & MAX_BY](#min_by--max_by)
 - [GROUP BY ALL](#group-by-all)
 - [ILIKE](#ilike)
 - [IF NOT EXISTS, IF EXISTS](#if-exists-if-not-exists)
-- [ARRAY_SORT, ARRAY_MIN, ARRAY_MAX](#array_sort-array-min-array-max)
+- [ARRAY_SORT, ARRAY_MIN, ARRAY_MAX](#array_sort-array_min-array_max)
 - [BANKER's ROUNDING](#bankers-rounding)
 - ["SELECT *" alternative "TABLE"](#table)
 
