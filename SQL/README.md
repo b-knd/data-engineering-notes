@@ -1,4 +1,7 @@
 # SQL
+<p align=center>
+  <img src="https://github.com/b-knd/data-engineering-notes/blob/main/SQL/media/sql.jpeg">
+</p>
 
 - [Data Definition Language](https://github.com/b-knd/data-engineering-notes/blob/main/SQL/Data%20Definition%20Language.md)
 - [Data Manipulation Language](https://github.com/b-knd/data-engineering-notes/blob/main/SQL/Data%20Manipulation%20Language.md)
