@@ -1,3 +1,5 @@
+# Query Execution Order
+
 1. FROM - identify tables to be queried and perform JOIN operations
 2. WHERE - filter rows based on specified conditions
 3. GROUP BY - group rows that have the same values in specified columns into aggregated date
