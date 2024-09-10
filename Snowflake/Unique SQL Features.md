@@ -21,6 +21,10 @@ _(Means copy is created without physically duplicating underlying data but creat
 ```sql
 CREATE TABLE my_table_clone CLONE my_table;
 ```
+- Take snapshot of table/schema or database
+- Create derived copy of object that initially shares same underlying storage
+- No additional costs until changes are made to clone
+- Clone share same CLONE_GROUP_ID as original table
 
 ## Streams and Tasks
 Snowflake provides streams to track changes (inserts, updates, deletes) to table
