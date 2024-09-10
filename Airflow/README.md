@@ -1,6 +1,6 @@
 # Airflow
 <p align=center>
-  <src="https://github.com/b-knd/data-engineering-notes/blob/main/Airflow/media/airflow.png">
+  <img src="https://github.com/b-knd/data-engineering-notes/blob/main/Airflow/media/airflow.png">
 </p>
 
 - [**Introduction to Airflow**](https://github.com/b-knd/data-engineering-notes/blob/main/Airflow/Introduction%20To%20Apache%20Airflow.md)
