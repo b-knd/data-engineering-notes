@@ -3,7 +3,21 @@
 - Designed for orchestrating workflows that are directed acyclic graphs (DAGs) of tasks
 - Allow the automation of complex workflows and pipelines by providing tools to manage and monitor each stage of the process
 - Helps to manage task dependencies, ensure correct order of execution and gives visiblity of status for each task
-- Key features:
-  - Scalability: can scale from single machine to thousand of nodes
-  - Modularity: easily extendable with custom operators, hooks and plugins
-  - Extensibility: can integrate with wide range of services and databases
+- Key characteristics:
+  - Dynamic: pipelines are configured as Python code, allowing for dynamic pipeline generation
+  - Extensible: Airflow components are extensible to adjust to different environments
+  - Flexible: built-in workflow parameterization using Jinja templating engine
+- Workflow as code:
+  - Define workflow as Python code
+  - Stored code in version control for roll-backs
+  - Simultaneous developments by developers
+  - Tests to validate functionalities
+  - Extensible components to build existing components
+  - Rich scheduling and execution semantics to define complex pipelines running at regular intervals
+  - **Backfilling** to allow rerunning pipelinens on historical data using new logic
+  - Rerunning pipelines after error resolution
+- Limitation/drawbacks/non-use case
+  - Not built for infinitely running event-based workflows
+  - Not a streaming solution but can work together with streaming system such as Apache Kafka
+    (eg. Kafka doing ingestion and real-time processing, event data written to storage location and Airflow can periodically starts a workflow processing data in batch)
+  - Philosophy lies heavily on coding so not the right solution if prefer more interaction with interface than coding
