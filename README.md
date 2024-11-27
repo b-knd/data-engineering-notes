@@ -2,6 +2,7 @@
 ### 🛠️ Tools/Platforms
 - **Data Storage and Warehousing**
   - [Snowflake](https://github.com/b-knd/data-engineering-notes/tree/main/Snowflake)
+  - [AWS](https://github.com/b-knd/data-engineering-notes/tree/main/AWS)
 
 - **Data Orchestration and Scheduling**
   - [Airflow](https://github.com/b-knd/data-engineering-notes/tree/main/Airflow)
