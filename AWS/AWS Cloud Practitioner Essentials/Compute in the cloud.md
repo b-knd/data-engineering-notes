@@ -40,10 +40,52 @@
   - Specific to instances
 - Compute Savings Plan
   - 66% savings over On-Demand costs for consistent amount of compute usage
-  - Require 1/3 year term commitment
+  - Require **1/3 year term commitment**
 - Dedicated instance
-  - Instance runs in VPC on hardware for single client
+  - Instance runs in **VPC on hardware for single client**
   - Higher cost compared to standard EC2 instance
 - Dedicated host
-  - Physical server with EC2 instance capacity for single customer
+  - **Physical server** with EC2 instance capacity for **single customer**
   - Most expensive options
+
+# Amazon EC2 Auto Scaling
+- Scale capacity as computing requirements change
+- Use dynamic scaling and predictive scaling
+
+# Elastic Load Balancing
+- Automatically distributes traffic across multiple resources
+- Provides single point of contact for Auto Scaling Group
+
+# AWS Messaging Services
+**Amazon Simple Notification Service**
+- Message are published to topics
+- Subscribers receive messages for their topics
+
+**Amazon Simple Queue Service**
+- Send, store and receive messages between software components
+- Queue messages without requiring other services
+
+# Severless Compute Services
+**AWS Lambda**
+- Run code without provisioning or managing servers
+- Pay only for compute time while code is running
+- Use other AWS services to automatically trigger code
+- How it works
+  1. Upload code to AWS lambda
+  2. Set code to trigger from event source
+  3. Code runs only when triggered
+  4. Pay only for compute time
+
+# AWS Container Services
+Containers provide standard way to package application's code and dependencies into single object. 
+**Amazon Elastic Container Service (Amazon ECS)**
+- Run and scale containerised applications
+- Use simple API calls to control Docket-enabled applications
+
+**Amazon Elastic Kubernetes Service (Amazon EKS)**
+- Run and scale Kubernetes applications
+- Readily update applications with new features
+
+**AWS Fargate**
+- Run serverless containers with Amazon ECS or Amazon EKS
+- Pay only for the resources you use
