@@ -1,7 +1,6 @@
 # dbt Analytics Engineering Associate — Comprehensive Study Notes
 
 > **Target:** dbt Analytics Engineering Certification (Associate)
-> **Level:** Advanced practitioner review
 > **Last updated:** April 2026
 
 ---
@@ -1023,8 +1022,3 @@ Generic (YAML):  unique | not_null | accepted_values | relationships
 Singular (SQL):  SELECT rows that FAIL — must return 0 rows to pass
 Package tests:   dbt_utils.unique_combination_of_columns | expression_is_true | etc.
 ```
-
----
-
-*Good luck on your dbt Analytics Engineering Associate exam! 🎯*
-*Focus especially on: `ref()` vs `source()`, materialization trade-offs, incremental model patterns, test types, and dbt Cloud job/environment configuration.*
